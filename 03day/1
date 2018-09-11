@@ -1,0 +1,9 @@
+class DiGua():
+
+    def kao(self):
+        print("烤")
+
+
+
+dg = DiGua()
+dg.kao()
