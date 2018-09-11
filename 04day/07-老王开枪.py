@@ -6,13 +6,13 @@ class Person():
         self.gun = gun#相当于老王的一个属性
 
     def KaiQiang(self,person):
-        zd = self.gun.dj.popzd()
+        zd = self.gun.dj.popzd()#请求就发射一个子弹
         zd.kill(person)
         
     def DiaoXue(self,count):#掉血
         self.hp -= count
-        print(self.hp)
         if self.hp <= 0:
+            self.hp = 0
             print("死了%d"%self.hp)
 class Gun():
     def __init__(self,name):
