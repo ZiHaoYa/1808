@@ -32,7 +32,7 @@ while True:
             pygame.quit()
             exit()
 
-    enemy_group.update()  # 调用精灵组的update
+    enemy_group.teupda()  # 调用精灵组的update
     enemy_group.draw(screen)  # 刷新到屏幕上
 
     pygame.display.update()  # 更新
